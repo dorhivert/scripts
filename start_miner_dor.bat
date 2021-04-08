@@ -14,7 +14,7 @@ if "%ERRORLEVEL%"=="0" (
     setx GPU_SINGLE_ALLOC_PERCENT 100
 
     REM IMPORTANT: Replace the ETH address with your own ETH wallet address in the -wal option (Rig001 is the name of the rig)
-    PhoenixMiner.exe -pool eu-eth.ss.btc.com:443 -pool2 eu-eth.ss.btc.com:443 -wal DorEth007.101
+    PhoenixMiner.exe -pool eu-eth.ss.btc.com:443 -pool2 eu-eth.ss.btc.com:443 -wal DorEth007.777
     pause
 	"C:\Mine\MSI Afterburner\MSIAfterburner.exe" -Profile1
 )
